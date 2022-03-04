@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: black;
+    background: #d6433b;
 }
 html {
     min-height: 100%;
@@ -10,14 +10,8 @@ html {
 .banner {
     width: 100;
     height: 100vh;
-}
-.content {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .content {
     width: 100%;
@@ -28,6 +22,14 @@ html {
     color: #fff;
 }
 .content h1 {
-    font-size: 11vh;
+    font-size: 120px;
     margin-top: 80px;
+    text-align: center;
+}
+.content p1 {
+    font-size: 35px;
+    margin: 30px auto;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: center;
 }
